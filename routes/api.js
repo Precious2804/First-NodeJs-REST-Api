@@ -1,5 +1,4 @@
 const express = require("express");
-const Ninja = require("../models/ninja");
 const router = express.Router();
 const ninjaController = require('../controllers/ninjaController')
 

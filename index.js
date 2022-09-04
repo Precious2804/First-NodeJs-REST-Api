@@ -24,7 +24,7 @@ app.use((err, req, res, next) => {
 
 //Route does not exist
 app.use((req, res) => {
-    res.status(404).json({ status: false, message: 'Routes does not exist' })
+    res.status(404).json({ status: false, message: 'Route does not exist' })
 })
 
 //listen to request from port

@@ -1,5 +1,3 @@
-const express = require('express');
-const router = express.Router();
 const Ninja = require('../models/ninja');
 
 const fetch_all_ninjas = (req, res, next) => {
